@@ -1,0 +1,14 @@
+開bat檔案
+
+我的(以後可以用自己的)
+ngrok(複製"") "2zqWL3KLdLC1KhL9aG8PgX3Un7O_4ydFs2rbfMdRV1wbwe7sv"
+
+刪除C:\Users\<你的使用者名稱>\.ngrok2\ngrok.yml
+方式二：手動編輯設定檔，只移除 authtoken 欄位
+這樣你可以保留其他設定（像 regions 等），只刪掉 token：
+authtoken: 2OcUF7Txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  ← 把這行刪掉
+
+pip install flask openpyxl pyngrok cloudinary line-bot-sdk python-dotenv
+
+
+還要設定路徑到目前資料夾和 python "linesdk版.py"
